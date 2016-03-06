@@ -1,5 +1,5 @@
 # aspnet-coreclr-mvc
-Docker base image which includes a bunch of asp.net core mvc packages already installed
+Docker base image which includes a bunch of asp.net core mvc packages already installed.
 
 Docker hub: https://hub.docker.com/r/cl0sey/aspnet-coreclr-mvc/
 
