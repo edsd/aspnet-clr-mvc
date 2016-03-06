@@ -11,8 +11,8 @@ docker pull cl0sey/aspnet-coreclr-mvc
 In your Dockerfile:
 ```dockerfile
 FROM aspnet-coreclr-mvc:latest
-ADD . app/
-WORKDIR app
+ADD . /app
+WORKDIR /app
 RUN "dnu" "restore"
 EXPOSE 5000
 ENTRYPOINT ["dnx", "web"]
